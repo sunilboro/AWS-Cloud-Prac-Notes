@@ -1,0 +1,47 @@
+Day-1, 27th April, 2021
+
+1. Who is the CCP for? CCP-Certified Cloud Practitioner
+* Learning AWS foundational knowlegde
+* Shows you've poked arounf and can use the AWS console.
+* Focuses on bilin gand business-centric concepts
+
+2. What is Cloud Computing?
+*Practice of using a network of remote servers hosted on the internet to store, manage, and process data.
+Two Types: On-Premise & Cloud Providers
+
+3. Six Advantages and benifits of Cloud Computing
+* Trade capital expense for variable expense
+* Benifit from massive economies of scales
+* Stop guessing capacity
+* Increase speed and agility
+* Stop spending money on running and maintaining data centers
+* Go global in miniutes 
+
+4. Types of Cloud Computing
+* SaaS - For customers
+* PaaS - For Developers
+* Iaas - For Admins
+
+5. Cloud Computing Deployements Models
+* CLoud
+* Hybrid
+* On-Premise
+
+6. Cloud Computing run in Availability Zones with Geographic Regions with Edge Locations.
+
+7. GovCloud - Allows customers to host sensitive Controlled Unclassified Information. 
+If you want to build something and sell it to government or governmental realted industries by using GovCloud, you are going to become Compliance.
+
+8. DevOps on AWS
+Learned:
+* The DevOps methodologies of culture, practices and tools.
+* Understood why adapting a mindset that supports a DevOps culture is essential to implementing DevOps
+* Amazon's transformation to DevOps.
+
+9. What is DevOps?
+Combination of cultural philosophies, pratices, and tools that increases an organization's ability to deliver applications and services at high velocity.
+
+10. DevOps combination of what?
+* Cultural philosophies for removing barriers and sharing end-to-end responsibility.
+* Processes developed for speed and quality, that streamline the way people work
+* Tools that align with processes and automate repeated task, making the release process more efficient and the application more reliable. 

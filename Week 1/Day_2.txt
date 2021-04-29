@@ -1,0 +1,53 @@
+Day 2 - 28th April, 2021
+
+Studied
+* The benefits of Amazon EC2 at a basic level.
+When you're working with AWS, those servers are virtual. And the service you use to gain access to virtual servers is called EC2.
+EC2 works with launch -> connect -> use
+
+* Different Amazon EC2 instance types.
+They are optimized for different tasks. When selecting an instance type, consider the specific needs of your workloads and applications. This might include requirements for compute, memory, or storage capabilities.
+- General purpose instances
+- Compute optimized instances
+- Memory optimized instances
+- Storage optimized instances
+
+* Amazon EC2 pricing
+With Amazon EC2, you pay only for the compute time that you use. Amazon EC2 offers a variety of pricing options for different use cases.
+- On-Demand
+- Amazon EC2 Savings Plans
+- Reserved Instances
+- Spot Instances 
+- Dedicated Hosts
+
+* The benefits of Amazon EC2 Auto Scaling.
+It involves beginning with only the resources you need and designing your architecture to automatically respond to changing demand by scaling out or in. As a result, you pay for only the resources you use. You don’t have to worry about a lack of computing capacity to meet your customers’ needs.
+
+* The benefits of Elastic Load Balancing.
+AWS service that automatically distributes incoming application traffic across multiple resources, such as Amazon EC2 instances. 
+Although Elastic Load Balancing and Amazon EC2 Auto Scaling are separate services, they work together to help ensure that applications running in Amazon EC2 can provide high performance and availability.
+- Low-Demand period
+- High Demand period
+
+* The differences between Amazon Simple Notification Service (Amazon SNS) and Amazon Simple Queue Service (Amazon SQS).
+Amazon Simple Notification Service (Amazon SNS) is a publish/subscribe service. Using Amazon SNS topics, a publisher publishes messages to subscribers.
+Amazon Simple Queue Service (Amazon SQS) is a message queuing service. 
+
+Using Amazon SQS, you can send, store, and receive messages between software components, without losing messages or requiring other services to be available. In Amazon SQS, an application sends messages into a queue. 
+
+* Additional AWS compute options.
+- Serverless Computing
+If we have applications that you want to run in Amazon EC2, we must do the following:
+Provision instances (virtual servers).
+Upload your code.
+Continue to manage the instances while your application is running.
+
+- AWS Lambda is a service that lets you run code without needing to provision or manage servers. 
+
+- Containers provide you with a standard way to package your application's code and dependencies into a single object. You can also use containers for processes and workflows in which there are essential requirements for security, reliability, and scalability.
+
+- Amazon Elastic Container Service (Amazon ECS) is a highly scalable, high-performance container management system that enables you to run and scale containerized applications on AWS. 
+
+- Amazon Elastic Kubernetes Service (Amazon EKS) is a fully managed service that you can use to run Kubernetes on AWS. 
+
+- AWS Fargate is a serverless compute engine for containers. It works with both Amazon ECS and Amazon EKS. 
