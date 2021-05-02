@@ -1,0 +1,35 @@
+* The basic concept of storage and databases.
+	Instance Store - An instance store provides temporary block-level storage for an Amazon EC2 instance. An instance store is disk storage that is physically attached to the host computer for an EC2 instance, and therefore has the same lifespan as the instance. When the instance is terminated, you lose any data in the instance store.
+
+* The benefits of Amazon Elastic Block Store (Amazon EBS).
+	Amazon Elastic Block Store (Amazon EBS) is a service that provides block-level storage volumes that you can use with Amazon EC2 instances. If you stop or terminate an Amazon EC2 instance, all the data on the attached EBS volume remains available.
+An EBS snapshot is an incremental backup. This means that the first backup taken of a volume copies all the data. For subsequent backups, only the blocks of data that have changed since the most recent snapshot are saved. 
+
+* The benefits of Amazon Simple Storage Service (Amazon S3).
+	Amazon Simple Storage Service (Amazon S3) is a service that provides object-level storage. Amazon S3 stores data as objects in buckets.
+
+You can upload any type of file to Amazon S3, such as images, videos, text files.
+ 
+* The benefits of Amazon Elastic File System (Amazon EFS).
+	Amazon Elastic File System (Amazon EFS) is a scalable file system used with AWS Cloud services and on-premises resources. As you add and remove files, Amazon EFS grows and shrinks automatically. It can scale on demand to petabytes without disrupting applications. 
+
+* The benefits of Amazon Relational Database Service (Amazon RDS).
+	Amazon RDS database engines is available on six database engines, which optimize for memory, performance, or input/output (I/O). Supported database engines include:
+
+- Amazon Aurora
+- PostgreSQL
+- MySQL
+- MariaDB
+- Oracle Database
+- Microsoft SQL Server
+
+* The benefits of Amazon DynamoDB.
+	Amazon DynamoDB is a key-value database service. It delivers single-digit millisecond performance at any scale.
+
+* Various database services.
+- Amazon DocumentDB
+- Amazon Neptune
+- Amazon Quantum Ledger Database (Amazon QLDB)
+- Amazon Managed Blockchain
+- Amazon ElastiCache
+- Amazon DynamoDB Accelerator
