@@ -1,0 +1,29 @@
+Day 5 - 3rd May, 2021
+
+* The reason is that you do not treat your AWS environment as a single object. Rather, you treat the environment as a collection of parts that build upon each other. AWS is responsible for some parts of your environment and you (the customer) are responsible for other parts. This concept is known as the shared responsibility model.
+The shared responsibility model divides into customer responsibilities (commonly referred to as “security in the cloud”) and AWS responsibilities (commonly referred to as “security of the cloud”).
+
+* AWS account root user - When you first create an AWS account, you begin with an identity known as the root user. 
+The root user is accessed by signing in with the email address and password that you used to create your AWS account. You can think of the root user as being similar to the owner of the coffee shop. It has complete access to all the AWS services and resources in the account.
+
+* An IAM role is an identity that you can assume to gain temporary access to permissions.  
+Before an IAM user, application, or service can assume an IAM role, they must be granted permissions to switch to the role. When someone assumes an IAM role, they abandon all previous permissions that they had under a previous role and assume the permissions of the new role.
+
+* Multi-factor authentication - In IAM, multi-factor authentication (MFA) provides an extra layer of security for your AWS account.
+
+* AWS Organizations - If company has multiple AWS accounts. You can use AWS Organizations to consolidate and manage multiple AWS accounts within a central location.
+When you create an organization, AWS Organizations automatically creates a root, which is the parent container for all the accounts in your organization.
+
+* AWS Artifact is a service that provides on-demand access to AWS security and compliance reports and select online agreements. 
+AWS Artifact consists of two main sections: AWS Artifact Agreements and AWS Artifact Reports.
+
+* Customer Compliance Center - The Customer Compliance Center contains resources to help you learn more about AWS compliance. 
+In the Customer Compliance Center, you can read customer compliance stories to discover how companies in regulated industries have solved various compliance, governance, and audit challenges.
+
+* Denial-of-service attacks - A denial-of-service (DoS) attack is a deliberate attempt to make a website or application unavailable to users.
+
+* AWS Shield - AWS Shield is a service that protects applications against DDoS attacks. AWS Shield provides two levels of protection: Standard and Advanced.
+
+* AWS Key Management Service (AWS KMS) enables you to perform encryption operations through the use of cryptographic keys. A cryptographic key is a random string of digits used for locking (encrypting) and unlocking (decrypting) data. You can use AWS KMS to create, manage, and use cryptographic keys. You can also control the use of keys across a wide range of services and in your applications.
+
+* Amazon GuardDuty - Amazon GuardDuty is a service that provides intelligent threat detection for your AWS infrastructure and resources. It identifies threats by continuously monitoring the network activity and account behavior within your AWS environment.
