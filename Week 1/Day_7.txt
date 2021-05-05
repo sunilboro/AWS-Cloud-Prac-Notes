@@ -1,0 +1,34 @@
+Day 7 - 5th May, 2021
+
+* AWS Free Tier - The AWS Free Tier enables you to begin using certain services without having to worry about incurring costs for the specified period. 
+Three types of offers are available: 
+- Always Free
+- 12 Months Free
+- Trials
+
+* How AWS pricing works
+AWS offers a range of cloud computing services with pay-as-you-go pricing.
+- Pay for what you use.
+- Pay less when you reserve.
+- Pay less with volume-based discounts when you use more.
+
+* AWS Pricing Calculator - The AWS Pricing Calculator lets you explore AWS services and create an estimate for the cost of your use cases on AWS. You can organize your AWS estimates by groups that you define. A group can reflect how your company is organized, such as providing estimates by cost center.
+
+* For AWS Lambda, you are charged based on the number of requests for your functions and the time that it takes for them to run.
+AWS Lambda allows 1 million free requests and up to 3.2 million seconds of compute time per month.
+
+* With Amazon EC2, you pay for only the compute time that you use while your instances are running.
+
+* For Amazon S3 pricing, consider the following cost components:
+- Storage
+- Requests and data retrievals
+- Data transfer
+- Management and replication
+
+* Use the AWS Billing & Cost Management dashboard to pay your AWS bill, monitor your usage, and analyze and control your costs.
+- Compare your current month-to-date balance with the previous month, and get a forecast of the next month based on current usage.
+- View month-to-date spend by service.
+- View Free Tier usage by service.
+- Access Cost Explorer and create budgets.
+- Purchase and manage Savings Plans.
+- Publish AWS Cost and Usage Reports.
