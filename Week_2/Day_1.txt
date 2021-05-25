@@ -1,0 +1,25 @@
+24th May, 2021
+
+AWS Support provides a mix of tools and technology, people, and programs designed to proactively help you optimize performance, lower costs, innovate faster and focused on solving some of the toughest challenges that hold you back in your cloud journey.
+
+There are three types of support plans available: 
+* Developer
+* Business
+* Enterprise
+
+How pricing works?
+- AWS offers you a pay-as-you-go approach for pricing for over 160 cloud services. With AWS you pay only for the individual services you need, for as long as you use them, and without requiring long-term contracts or complex licensing. AWS pricing is similar to how you pay for utilities like water and electricity. You only pay for the services you consume, and once you stop using them, there are no additional costs or termination fees.
+- Pay-as-you-go
+- Save when you reserve
+- Pay less by using more
+
+AWS Pricing Calculator
+- Whether you are running a single instance or dozens of individual services, you can estimate your monthly bill using the AWS Pricing Calculator. The calculator allows you to estimate individual or multiple prices and use templates to appraise complete solutions.
+
+At AWS, we want you to be successful. Our Support plans are designed to give you the right mix of tools and access to expertise so that you can be successful with AWS while optimizing performance, managing risk, and keeping costs under control.
+
+Basic Support is included for all AWS customers and includes:
+
+* Customer Service and Communities - 24x7 access to customer service, documentation, whitepapers, and support forums.
+* AWS Trusted Advisor - Access to the 7 core Trusted Advisor checks and guidance to provision your resources following best practices to increase performance and improve security.
+* AWS Personal Health Dashboard - A personalized view of the health of AWS services, and alerts when your resources are impacted.
