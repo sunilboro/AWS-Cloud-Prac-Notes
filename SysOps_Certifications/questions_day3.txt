@@ -1,0 +1,11 @@
+Which of the following is most suitable EBS volume type for data warehouse?
+1. gp2 (General Purpose)
+2. io1 (Provisioned IOPS)
+3. st1 (Throughput Optimized HDD)
+4. sc1 (Cold HDD)
+
+what is the max iops limits for general purpose EBS volume?
+1. 10,000
+2. 13,000
+3. 16,000
+4. 19,000

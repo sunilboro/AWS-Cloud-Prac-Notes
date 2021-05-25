@@ -1,0 +1,26 @@
+4 Different Volume types:
+1. General Purpose (SSD) - gp2
+	Most Work Loads
+	System Boot Volumes
+	Low Latency interactive apps
+	development and test environments
+2. Provisioned IOPS (SSD) - io1
+	Critical Business applications
+	used for more than 16000 IOPS
+	max limit of IOPS is 64000
+	160 IOPS per volume
+	Large data base like Cassedra, Mongo db
+	
+3. Throughput Optimiezed (HDD) - st1
+	Big data, data warehouses log processing
+	Cannot be a boot volume
+	streaming work loads
+	fast through put at low price
+
+4. Cold (HDD) - sc1
+	Throughput oriented storage for large volumes 
+	of data that is infrequently accessed. 
+	Scenarios where the lowest storage cost is importantj
+	Cannot be a boot volume	
+	
+
