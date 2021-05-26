@@ -1,0 +1,23 @@
+Monitoring and Metrics
+EBS - Virtual Disk that we attach to EC2
+4 types EBS
+1. General Purpose (SSD) - gp2
+	Recommended for most workloads
+	System Boot volumes
+	Virtual Desktops
+	Low latency interactive apps
+	Development and test environments
+
+2. Provisioned IOPS (SSD) - io1
+	Critical Business applications that require sustained IOPS performance or more than 10,000 IOPS or 160MiB/s of throughput per volume
+	Large Database workloads such as: MongoDB, Cassendra, Microsoft SQL
+	
+3. throughput optimized (HDD) - st1
+	Streaming workloads requiring consistent, fast throughput at a low price. 
+	Big Data warehouses and Log processing
+	Cannot be a boot volume
+	
+4. Cold (HDD) - sc1
+	Throughput oriented storage for large volumes of data that is infrequently accessed 
+	Scenario where the lowest storage cost is important
+	Cannot be a boot volume

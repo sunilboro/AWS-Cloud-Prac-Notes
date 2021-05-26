@@ -1,0 +1,28 @@
+When It comes to Monitoring caching engines there are 4 main  metrics to look at:
+1. CPU Utilizations
+2. Swap Usage
+3. Evictions
+4. Concurrent Connections
+
+Memcache:
+Multithreaded
+can handle load of upto 90%. If it exceeds 90% add more nodes to the cluster
+
+Redis:
+Not Multithreaded. 
+
+Swap Usage:
+swap usage is simply the amount of swap files that is used. The Swap file or paging file is the amount of disk storage space reserved
+on disk if your computer runs out of ram. Typically the size of swap file is equal to the size of ram. So if you have 4gb of ram
+you will have 4gb of swap file.
+
+Memecache:
+Should be around 0 most of the time and should not exceed 50 mb.
+
+Redis:
+No swap usage metric instead reserved memory. 
+
+Evictions:
+Think of Evictions like tenants in apartment building, there are number of empty apartments that slowly fill up with tenants. 
+Eventually the apartment block is full, however more tenants need to be added. 
+An Eviction occurs when new items is added and an old item is removed due to lack of free space.

@@ -1,0 +1,50 @@
+Monitoring and Metrics
+
+CloudWatch:
+CloudWatch is monitoring service to monitor your AWS resources, as well as the applications that run on AWS.
+
+It can monitor things like:
+Compute 
+Auto Scaling Groups
+Elastic Load Balancers
+Route53 Health Checks
+Storage and Content Delivery
+EBS Volumes
+Storage Gateways
+CloudFront
+Databases and Analytics
+DynamoDB
+Elasticache Nodes
+RDS Instances
+Elastic MapReduce Job Flows
+Redshift
+SNS Topics
+SQS Queues
+OpsWorks
+CloudWatch Logs
+Estimated Charges on AWS Bills
+
+For EC2 instance these things, CloudWatch monitors by default (5min interval by default)
+Host Level Metrics:
+CPU
+Network
+Disk
+Status Checks
+(Note : RAM Utilization is Custome Metric)
+
+How long CloudWatch metrics are stored:
+1. CloudWatch Logs will store data indefinitely
+2. Retention for each log group can be changed at any time.
+3. we can retrieve this data using GetMetricStatistics API
+4. you can retrieve data from any terminated EC2 or ELB instance after its termination
+
+Metric Granularity:
+1 min (custom metrics) , 3 min, 5 min
+
+
+CloudWatch Alarms:
+You can create alarm to monitor any Amazon CloudWatch metric in your account. This include EC2 CPU Utilization 
+Elastic Load Balancer Latency or even the charges on your AWS bill. You can create appropriate threshold in which to 
+trigger the alarms and also set what actions should be taken if an alarm state is reached (SNS notifications, Trigger Lambda function).
+
+with the help of SSM agent and CloudWatch agent we can use CloudWatch on premises. 

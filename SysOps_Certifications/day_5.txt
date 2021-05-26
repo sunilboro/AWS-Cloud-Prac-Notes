@@ -1,0 +1,33 @@
+AWS Organizations and Cost Explorer
+
+AWS Organizations allows you to manage multiple AWS accounts at Once. With Organizations you can create groups of accounts and apply policies to those groups.
+
+1. Centrally manage policies across multiple AWS accounts
+	AWS Organizations allows you to manage multiple AWS accounts at once. You can create groups of acounts and then attach 
+	policies to a group to ensure the correct policies are applied across the accounts. Organizations enables you to centrally manage
+	policies across multiple accounts. without requiring custom scripts and manual processes. 
+
+2. Control Access to AWS Services. 
+	With AWS Organizations you can create Service Control Policies. that centrally control AWS services use across multiple AWS accounts. 
+	You can specifically allow or deny multiple AWS services. For example you can deny the use of kinesis or DynamoDB to your HR group within your
+	AWS Organizations, Even if IAM in that account allows it. SCP will over ride it. 
+	
+3. Automate AWS Account creation and deletion
+	You can use the AWS Organizations APIs to automate the creation and management of new AWS accounts. the Organizations APIs 
+	enable you to create new accounts, and to add the new accounts to a group. The Policies attached to a group are automatically 
+	applied to the new account. 
+
+4. Consolidated Billing across multiple AWS Accounts
+	Allows you set up single  payment account for all AWS accounts in your organizations. You can also take advatage of aggregated billing like discounts for EC2 and S3 services. 
+	
+	Cost Explorer:
+	Cost Explorer is a tool that enables you to view and organize your cost and usage. You can explore your usage and cost using the main graphs. 
+	the cost explorer cost and usage report. you can view data upto last 13 months, forcast how much you are likely to spend next 3 months. and
+	get recommendations on what reserved instances to purchase. 
+
+Which of the following is  incorrect? (Multiple Correct) 
+A. AWS Organizations is used for Consolidated Billing
+B. AWS Organizations is used for Centrally managing policies across multiple accounts
+C. AWS Organizations allows use of all services which are allowed by IAM. 
+D. Automating account creation and deletion can't be done by AWS Organizations. 
+
