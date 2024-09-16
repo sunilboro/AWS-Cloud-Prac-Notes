@@ -1,0 +1,49 @@
+﻿AWS Config
+AWS allows you to continuously monitor, asses, audit and evaluate the configuration of your AWS resources. Config continuously
+monitors and records your AWS resources configuration and allows you to check this configuration against the desired configuration
+with configurations you can review configuration and relationship between AWS resources. we can also check resource configuration
+histories. and determine your overall compliance against the configuration policies. 
+
+Benefits:
+1. Continuous Monitoring
+2. Continuous Assesment
+3. Change Management
+4. Operational Troubleshooting
+5. Enterprise-wide compliance monitoring
+6. Support for Third party resources
+
+EC2 Price models:
+1. On Demand
+	pay only for what you use. 
+	no long term commitments or upfront payments
+	provision and release instances whenever you want.
+	
+2. Spot Instances
+	allows you to request spare amazon instances 
+	EC2 computing capacity for 90% off the on 
+	demand price. 
+	
+3. Reserved Instances
+	upto 75% discount as compared to on demand. 
+	1 or 3 year commitment.
+
+4. Dedicated Hosts
+	physical ec2 server reserved for your use. 
+	allow you to use your existing server bound licenses.
+	can be on demand. 
+	can be purchased as a reservation for upto 70% off the on-demand price. 
+	
+	
+An Organization wants to run a workload which logs operation performed and hence provide ability to pause resume process. 
+which of the following is the best EC2 instance to buy. 
+A. On demand instance.
+B. Spot Instace
+C. Reserved Instances
+D. Dedicated Host
+
+You want to ensure that AWS Config is enabled for all three regions that your
+organization is using. How would you enable AWS Config for all three regions?
+A. It is automatically enabled for all regions.
+B. You need to enable it once for all regions.
+C. You need to enable it once per region.
+D. You can’t use AWS Config for that many regions

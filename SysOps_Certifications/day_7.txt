@@ -1,0 +1,71 @@
+RDS Multi-AZ :
+
+Multi-AZ keeps a copy of your production database in a separate 
+availability zone in case of a failure or disaster. AWS manage 
+the failure to one AZ to another automatically. 
+
+Multi AZ is for disaster recovery only. 
+
+It is not primarily used for improving performance. For performance 
+improvement, you need read replicas. 
+
+Multi AZ allows you to have an exact copy of your production database 
+in another availability zone. AWS handles the replication for you, so 
+when your production database is written to this write will automatically
+be synchronized to the standby database. In the event of planned database 
+maintenance, DB instance failure, or an AZ failure. Amazon RDS will automatically 
+failover to the standby so that database operations can resume quickly without 
+administrative intervention. 
+
+multi AZ deployment for the MySQL, Oracle and PostgreSQL engines utilize synchrounous
+physical replication to keep data on the standby up-to-date with priamry.  
+
+Multi-AZ deployment for SQL server engine use synchrounous logical replication to 
+achieve the same result, employing SQL server native Mirroring technology. 
+
+Both approaches safeguard your data in the instance failure or loss of an availability zone. 
+
+RDS multi-AZ failover Advantages:
+1. High Availability
+2. Backups are taken from secondary which avoids I/O suspension to the priamry
+3. Restore's are taken from secondary which avoids I/O suspension to the priamry. 
+
+
+Read Replicas:
+Read Replicas make it easy for to take advantage of supported engines built in 
+replication functionality to elastically scale out beyond the capacity constraints 
+of a single DB instance for read-heavy database workloads. 
+
+You can create read replicas with a few clicks in the AWS management console 
+or using the CreateDBInstaceReadReplica API. Once the read replica is created, database
+updates on the source DB instance will be replicated using a supportive engine's native, 
+asynchrounous replication. You can create multiple read replicas for a given DB source instance, 
+and distribute your application's read traffic amongst them. 
+
+when should you use read replicas:
+Scaling beyond the compute or I/O capacity of a single DB instance for read heavy database workloads. 
+This excess read traffic can be directed to one or more read replicas. 
+
+Serving read traffic while the source DB instance is unavailable If your source DB instance cannot take 
+I/O requests (Due to I/O suspension for backups or scheduled maintenance) you can direct read traffic to 
+your read replicas. 
+
+Business reporting or dataware housing scenarios; you may want business reporting queries to run against
+the read replica, rather than your priamry production DB instance. 
+
+1. You currently have a MySQL database running in RDS. You want to ensure that the
+database is highly available. How can you accomplish this?
+A. Take frequent snapshots of your database.
+B. Create a read replica.
+C. Create multiple read replicas.
+D. Set the database to be multi-AZ
+
+2. You notice that your multi-AZ deployment is running out of a different availability zone
+than normal. Looking through the logs, you notice that a failover occurred two days
+prior. What could be the cause of the failover?
+A. Your database became corrupt.
+B. Your database became too big.
+C. The primary availability zone became unavailable.
+D. The database in the primary AZ ran out of memory.
+
+ans : D, C
